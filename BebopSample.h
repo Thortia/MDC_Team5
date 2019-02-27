@@ -53,4 +53,4 @@ void onInputEvent (eIHM_INPUT_EVENT event, void *customData);
 
 int customPrintCallback (eARSAL_PRINT_LEVEL level, const char *tag, const char *format, va_list va);
 
-#endif /* BEBOP_SAMPLE_H */
+#endif /* BEBOP_SAMPLE_H */	

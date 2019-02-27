@@ -264,35 +264,35 @@ void *IHM_InputProcessing(void *data)
                     ihm->onInputEventCallback (IHM_INPUT_EVENT_ROLL_RIGHT, ihm->customData);
                 }
             }
-			else if (key == 'z')//capture
+			else if (key == 'z')//zÅ° ÄžÃÄ ±âŽÉ
 			{
 				if (ihm->onInputEventCallback != NULL)
 				{
 					ihm->onInputEventCallback(IHM_INPUT_EVENT_CAPTURE, ihm->customData);
 				}
 			}
-			else if (key == 'x')//start recording
+			else if (key == 'x')//xÅ° ³ìÈ­ œÃÀÛ ±âŽÉ
 			{
 				if (ihm->onInputEventCallback != NULL)
 				{
 					ihm->onInputEventCallback(IHM_INPUT_EVENT_STARTRECORD, ihm->customData);
 				}
 			}
-			else if (key == 'c')//stop recording
+			else if (key == 'c')//cÅ° ³ìÈ­ Á€Áö ±âŽÉ
 			{
 				if (ihm->onInputEventCallback != NULL)
 				{
 					ihm->onInputEventCallback(IHM_INPUT_EVENT_STOPRECORD, ihm->customData);
 				}
 			}
-			else if (key == 'q')//do autopylot
+			else if (key == 'p')//qÅ° ÀÚÀ² ÁÖÇà ±âŽÉ
 			{
 				if (ihm->onInputEventCallback != NULL)
 				{
 					ihm->onInputEventCallback(IHM_INPUT_EVENT_AUTOPYLOT, ihm->customData);
 				}
 			}
-			else if (key == 'v')//send files
+			else if (key == 'v')//vÅ° ÆÄÀÏ ÀüŒÛ ±âŽÉ
 			{
 				if (ihm->onInputEventCallback != NULL)
 				{
